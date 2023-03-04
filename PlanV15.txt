@@ -1,0 +1,41 @@
+FOR WHEN YOU COME BACK:
+- You were trying to implement template matching appside using transferred images.
+
+APP:
+- PRIORITY: Update Pardies OOP, see Shrek Engine, a lot of unneccessary args, kwargs and super arguments;
+- Undo functionality for ScreenPVPL;
+- Drag and drop for PRD attributes into other PVPL blocks;
+- In-app popup messages;
+- More try except statements to prevent app from breaking as easily, especially for file management;
+- Extend length of PVPL blocks whenever their text length exceeds their text boxes by binding function to textbox.text;
+- Align text properly for PVPL management popup;
+- Allow closing of open workspaces;
+- Add string methods and built-in functions to comiler and double-check rest of compiler;
+- Mapping and interscript config files;
+- Add status and selection info and highlighting for PRD connections and PVPL scripts on run screen;
+- Bottom of run screen;
+- Add remote control options based on PRD model to Run screen bottom, perhaps make it so compiled PVPL script observes changes to separate config file, rather than having to revamp entire system;
+- Add scanning functionality BlueTooth and WiFi connections https://pybluez.readthedocs.io/en/latest/api/advertise_service.htm;
+- Add 'save' and 'save as' mode toggles just below the save button, also add ctrl+s functionality;
+- Add checks to make sure the PRD attributes are the correct datatypes on the server side;
+- Add checks for redundant script files or image file folders leftover to prevent clutter and unnecessary storage use;
+- Check b"PRD" in data for server side;
+- Hide block structures via button at top of structure;
+- Zoom in and out with ScreenPVPL, perhaps by using ScatterLayout (see old pardies);
+- Start planning database management and the shop and profile screens;
+- Voice recognition;
+- Github repository via command line;
+- Cython;
+- KivyMD;
+- Refactor pvpl_workspace:
+	- Add placeholder data to self.blocks_list to replace deleted blocks, search for that placeholder when creating new blocks to fill the gaps.
+
+PRD-0:
+- Implement template matching loop and add output for appside;
+- Add camera to make use of template matching loop;
+- DistanceSensor maximum?
+- Assemble PRD-0;
+- Begin planning PRD-1 with robot arm and maybe voice recognition.
+
+COMPLETED:
+- Add Break and Continue PVPL blocks;

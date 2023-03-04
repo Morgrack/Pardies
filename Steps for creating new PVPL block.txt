@@ -1,0 +1,6 @@
+1. Create block from base in pvpl_workspace_base.
+2. Add to global collection in pvpl_workspace_base.
+3. Add to relevant pvpl_type under panelExtras in pvpl_workspace.
+4. Amend save function.
+5. Amend load function.
+6. Amend pvpl_cython function.
